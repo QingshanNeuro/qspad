@@ -16,6 +16,8 @@ Installing this extension sets (as defaults you can still override):
 - **No bracket rainbow colors** (`editor.bracketPairColorization.enabled: false`)
 - **No semantic highlighting** (`editor.semanticHighlighting.enabled: false`) — this is what stops language extensions (e.g. R, Python) from re-coloring functions/keywords on top of the theme
 
+This extension also bundles a second theme, **`QSpad High Contrast (Neurodivergent Friendly)`**, with the same flat/no-syntax-color approach but noticeably darker text, line numbers, and UI chrome — useful on lower-resolution or lower-quality displays where the softer default can feel too faint. Switch to it via `Cmd/Ctrl+K Cmd/Ctrl+T` (or Settings → Color Theme) without changing anything else.
+
 ## Install
 
 **From the Marketplace** (once published): search "QSpad" in the Extensions panel, or
@@ -28,7 +30,7 @@ ext install qingshanneuro.qspad
 git clone https://github.com/QingshanNeuro/qspad.git
 cd qspad
 npx @vscode/vsce package
-code --install-extension qspad-0.1.4.vsix
+code --install-extension qspad-0.1.5.vsix
 ```
 
 ## Tuning it further
