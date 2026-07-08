@@ -4,6 +4,8 @@
   "colors": {
     "editor.background": "#FFFDF5",
     "editor.foreground": "#3B3F36",
+    "descriptionForeground": "#3B3F36",
+    "foreground": "#3B3F36",
     "editor.lineHighlightBackground": "#F7F5E9",
     "editorCursor.foreground": "#3B3F36",
     "editorLineNumber.foreground": "#B3B39A",

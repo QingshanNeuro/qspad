@@ -2,7 +2,7 @@
   "name": "qspad",
   "displayName": "QSpad — Neurodivergent Friendly Theme",
   "description": "A minimalist, low-contrast ivory background with muted sage-green accents, wide letter spacing, no italics, and semantic highlighting off — built for readers with dyslexia, and generally calmer for ADHD, autistic, and other sensory-sensitive readers.",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "publisher": "qingshanneuro",
   "author": "Qingshan",
   "icon": "icon.png",

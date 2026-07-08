@@ -28,7 +28,7 @@ ext install qingshanneuro.qspad
 git clone https://github.com/QingshanNeuro/qspad.git
 cd qspad
 npx @vscode/vsce package
-code --install-extension qspad-0.1.3.vsix
+code --install-extension qspad-0.1.4.vsix
 ```
 
 ## Tuning it further
