@@ -1,0 +1,41 @@
+{
+  "name": "qspad",
+  "displayName": "QSpad — Neurodivergent Friendly Theme",
+  "description": "A minimalist, low-contrast ivory background with muted sage-green accents, wide letter spacing, no italics, and semantic highlighting off — built for readers with dyslexia, and generally calmer for ADHD, autistic, and other sensory-sensitive readers.",
+  "version": "0.1.0",
+  "publisher": "your-publisher-id",
+  "author": "Qingshan",
+  "icon": "icon.png",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": ["Themes"],
+  "keywords": ["dyslexia", "neurodivergent", "adhd", "autistic", "sensory-friendly", "accessibility", "color-theme", "low-contrast", "monospace", "minimalism"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "QSpad (Neurodivergent Friendly)",
+        "uiTheme": "vs",
+        "path": "./themes/qspad-color-theme.json"
+      }
+    ],
+    "configurationDefaults": {
+      "workbench.colorTheme": "QSpad (Neurodivergent Friendly)",
+      "editor.fontFamily": "Menlo, Consolas, 'DejaVu Sans Mono', monospace",
+      "editor.fontLigatures": false,
+      "editor.fontSize": 13,
+      "editor.lineHeight": 22,
+      "editor.letterSpacing": 0.5,
+      "editor.bracketPairColorization.enabled": false,
+      "editor.semanticHighlighting.enabled": false,
+      "terminal.integrated.fontFamily": "Menlo, Consolas, 'DejaVu Sans Mono', monospace",
+      "terminal.integrated.letterSpacing": 0.5,
+      "terminal.integrated.lineHeight": 1.4
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/qspad"
+  }
+}
