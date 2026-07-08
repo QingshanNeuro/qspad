@@ -30,7 +30,7 @@ ext install qingshanneuro.qspad
 git clone https://github.com/QingshanNeuro/qspad.git
 cd qspad
 npx @vscode/vsce package
-code --install-extension qspad-0.1.5.vsix
+code --install-extension qspad-0.1.6.vsix
 ```
 
 ## Tuning it further
@@ -38,6 +38,7 @@ code --install-extension qspad-0.1.5.vsix
 - **Want some syntax color back?** Edit `themes/qspad-color-theme.json` and split the one big `tokenColors` rule into a few groups (e.g. keep comments/strings distinct, leave functions/variables flat) — this is exactly what we did interactively before flattening it all the way.
 - **Different font?** Override `editor.fontFamily` in your own `settings.json` — extension defaults never lock you out of changing them.
 - **Different accent?** The sage-green UI accents live in `themes/qspad-color-theme.json` under `colors` (`focusBorder`, `editor.selectionBackground`, `editorBracketMatch.border`).
+- **On Windows, or a lower-quality display?** Consolas at regular weight can read a bit thin — try `"editor.fontFamily": "'Cascadia Mono', Consolas, monospace"` (bundled with Windows Terminal, or grab it from `github.com/microsoft/cascadia-code`) paired with `"editor.letterSpacing": 0.8`. Avoid `editor.fontWeight: "bold"` to fix thinness — it overshoots into feeling heavy; a font change plus a bit more letter spacing reads more "solid" without that.
 
 ## Colorblind accessibility
 
