@@ -18,11 +18,12 @@ Installing this extension sets (as defaults you can still override):
 
 **From the Marketplace** (once published): search "QSpad" in the Extensions panel, or
 ```
-ext install your-publisher-id.qspad
+ext install qingshanneuro.qspad
 ```
 
-**From source** (for now, before it's published):
+**From source**:
 ```
+git clone https://github.com/QingshanNeuro/qspad.git
 cd qspad
 npx @vscode/vsce package
 code --install-extension qspad-0.1.0.vsix
