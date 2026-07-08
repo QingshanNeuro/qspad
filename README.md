@@ -4,6 +4,8 @@ A minimalist, low-contrast VS Code theme built around the reading comfort tweaks
 
 Minimalism is the point, not a side effect — every choice here favors sensory comfort and a feeling of safety over visual interest. Comments, keywords, strings, and variables are all the same color on purpose. If you want *some* color distinction back, see "Tuning it further" below.
 
+![QSpad theme screenshot](images/screenshot.png)
+
 ## What it changes
 
 Installing this extension sets (as defaults you can still override):
@@ -26,7 +28,7 @@ ext install qingshanneuro.qspad
 git clone https://github.com/QingshanNeuro/qspad.git
 cd qspad
 npx @vscode/vsce package
-code --install-extension qspad-0.1.0.vsix
+code --install-extension qspad-0.1.2.vsix
 ```
 
 ## Tuning it further
