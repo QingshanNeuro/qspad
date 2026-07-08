@@ -44,7 +44,20 @@
     "diffEditor.removedTextBackground": "#A2666633",
     "diffEditor.removedLineBackground": "#A2666622",
     "gitDecoration.deletedResourceForeground": "#A26666",
-    "gitDecoration.conflictingResourceForeground": "#A26666"
+    "gitDecoration.conflictingResourceForeground": "#A26666",
+
+    "editorGutter.addedBackground": "#1F5C33",
+    "editorOverviewRuler.addedForeground": "#1F5C33",
+    "diffEditor.insertedTextBackground": "#1F5C3333",
+    "diffEditor.insertedLineBackground": "#1F5C3322",
+    "gitDecoration.addedResourceForeground": "#1F5C33",
+    "gitDecoration.untrackedResourceForeground": "#1F5C33",
+
+    "editor.wordHighlightBackground": "#E3E8D6",
+    "editor.wordHighlightBorder": "#00000000",
+    "editor.wordHighlightStrongBackground": "#E3E8D6",
+    "editor.wordHighlightStrongBorder": "#00000000",
+    "editor.hoverHighlightBackground": "#E3E8D6"
   },
   "tokenColors": [
     {
